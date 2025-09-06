@@ -1,4 +1,5 @@
 # Linkdin-Post-Generator
+```
 +-----------------+         HTTP POST         +-----------------+       LLM Call       +-----------------------------+
 |                 |  -------------------->   |                 |  ----------------->  |                             |
 |  Streamlit UI   |  User inputs: topic,     |  FastAPI Backend |  generate_post()     |  LangChain Agent Function   |
@@ -42,3 +43,4 @@
                                            | Displays LinkedIn|
                                            | Post to user     |
                                            +-----------------+
+```
