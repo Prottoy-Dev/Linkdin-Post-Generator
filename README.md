@@ -45,8 +45,6 @@
                                            +-----------------+
 ```
 
-# LinkedIn Post Generator
-
 Generate professional LinkedIn posts instantly using AI! This project combines FastAPI, Streamlit, LangChain, and Groq LLM to create a seamless content creation experience.
 
 ## Features
@@ -105,6 +103,7 @@ docker-compose up --build
 ```
 ## Deployment
 Deployed on Render(https://linkdin-post-generator.onrender.com/docs)
+
 Deployed on Streamlit(https://linkdinpostgenerator.streamlit.app/)
 
 
