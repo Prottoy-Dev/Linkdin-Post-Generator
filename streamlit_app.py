@@ -33,7 +33,7 @@ if st.button("Generate Post"):
         }
 
         try:
-            response = requests.post("http://127.0.0.1:8000/generate_post", json=payload)
+            response = requests.post("https://linkdin-post-generator.onrender.com/generate_post", json=payload)
             response.raise_for_status()
             data = response.json()
             post_text = data.get("post", "No post returned.")
